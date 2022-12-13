@@ -23,9 +23,7 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
             prefix: '#',
             mods: ['919389379221@g.us'],
             PORT: Number(process.env.PORT || Math.floor(Math.random() * (9000 - 3000) + 3000)),
-            chatBotUrl: process.env.CHAT_BOT_URL || 'http://api.brainshop.ai/get?bid=158484&key=AF9RvRrK14AhY46N&uid=[uid]&msg=[msg]
-
-',
+            chatBotUrl: process.env.CHAT_BOT_URL || 'http://api.brainshop.ai/get?bid=158484&key=AF9RvRrK14AhY46N&uid=[uid]&msg=[msg]',
             casinoGroup: '120363045097512261@g.us',
             adminsGroup: '120363046606789357@g.us',
             supportGroups: [],
