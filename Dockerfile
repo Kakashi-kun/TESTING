@@ -1,14 +1,11 @@
-FROM fedora:37
+FROM quay.io/raysenpai69/nezuko:latest
 
-RUN sudo dnf -y update &&\
-    sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm &&\
-    sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
-    sudo dnf clean all -y
-
-WORKDIR /root/EternityBots
+WORKDIR /root/nezuko
 
 COPY . /root/nezuko
 
-RUN yarn
+EXPOSE 8000
 
-CMD ["yarn","start"]
+RUN yarn install
+
+CMD ["yarn", "start"]
