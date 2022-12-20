@@ -1,4 +1,4 @@
-import yts from 'yt-search'
+import yts from 'youtube-yts'
 import { YT } from '../../lib'
 import { Command, BaseCommand, Message } from '../../Structures'
 import { IArgs } from '../../Types'
