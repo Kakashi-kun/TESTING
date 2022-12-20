@@ -61,8 +61,7 @@
     "typed-emitter": "^2.1.0",
     "wa-sticker-formatter": "^4.3.2",
     "youtube-yts": "^2.0.0",
-    "youtubedl-core": "^4.11.1",
-    "yt-search": "^2.10.3"
+    "youtubedl-core": "^4.11.1"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
