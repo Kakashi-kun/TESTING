@@ -13,4 +13,4 @@ WORKDIR /root/EternityBots
 
 RUN yarn
 
-CMD ["node","koyeb.js"]
+CMD ["yarn","start"]
