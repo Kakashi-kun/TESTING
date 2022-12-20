@@ -5164,20 +5164,6 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-youtube-yts@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/youtube-yts/-/youtube-yts-2.0.0.tgz#510b881215f4d9506163d6dd4242da5cac601ec7"
-  integrity sha512-g0m1VMqGy2AytawNR4YHDomqrPziU8SP/NyCCdIxmBkRMsdlLSQmhYlY0vW9weM2GsfMBPdYMQPBsAFpt+GU5g==
-  dependencies:
-    async.parallellimit "~0.5.2"
-    boolstring "~1.0.2"
-    cheerio "^1.0.0-rc.10"
-    dasu "~0.4.3"
-    human-time "0.0.2"
-    jsonpath-plus "~5.0.2"
-    minimist "~1.2.5"
-    node-fzf "~0.5.1"
-
 youtubedl-core@^4.11.1:
   version "4.11.1"
   resolved "https://registry.yarnpkg.com/youtubedl-core/-/youtubedl-core-4.11.1.tgz#65f5f671c90df35973cc3350f8cf683d9b633362"
